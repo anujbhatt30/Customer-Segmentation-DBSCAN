@@ -95,6 +95,66 @@ DBSCAN_Clustering/
 ```
 
 ---
+## Workflow
+
+                ┌────────────────────────┐
+                │   Load Dataset         │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Data Exploration (EDA) │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Data Preprocessing     │
+                │ • Handle Missing Data  │
+                │ • Select Features      │
+                │ • Feature Scaling      │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Feature Selection      │
+                │ (e.g., Income, Score)  │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Determine eps &        │
+                │ min_samples            │
+                │ (k-Distance Graph)     │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Train DBSCAN Model     │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Generate Cluster Labels│
+                │ & Detect Noise Points  │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Cluster Visualization  │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Analyze Customer       │
+                │ Segments               │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Business Insights      │
+                │ & Recommendations      │
+                └────────────────────────┘
+---
 
 ## k-Distance Graph
 
