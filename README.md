@@ -244,4 +244,5 @@ During this project, I learned:
 
 **Anuj Bhatt**
 
-Aspiring Machine Learning Enthusiast.
+Aspiring Machine Learning Enthusiast
+Thank you
