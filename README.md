@@ -10,6 +10,17 @@ The project covers data preprocessing, feature scaling, parameter selection usin
 
 ---
 
+**Key objectives:**
+- Perform exploratory data analysis (EDA) to understand customer demographics and spending patterns
+- Preprocess and scale features to prepare data for density-based clustering
+- Determine optimal `eps` and `min_samples` parameters using the k-distance graph method
+- Apply DBSCAN to identify dense customer clusters and detect noise/outlier points
+- Visualize and interpret the resulting clusters
+- Profile each customer segment (regular, active, and outlier groups) based on average age, income, and spending score
+- Derive actionable business insights and marketing recommendations from the segmentation results
+
+---
+
 ## Dataset
 
 **Dataset:** Mall Customer Segmentation Dataset
